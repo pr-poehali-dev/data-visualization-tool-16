@@ -57,17 +57,21 @@ const Index = () => {
 
             <div className="flex flex-col gap-2 max-w-5xl">
               <div className="flex items-center gap-4">
-                <span className="text-accent font-mono text-sm">Имя</span>
-                <span className="text-foreground font-mono text-sm">Макс</span>
+                <span className="text-accent font-mono text-sm">Лекция</span>
+                <span className="text-foreground font-mono text-sm">Базы данных и СУБД: реляционные БД, SQL-запросы, нормализация</span>
               </div>
               <div className="flex items-center gap-4">
-                <span className="text-accent font-mono text-sm">Вид</span>
-                <span className="text-foreground font-mono text-sm">Инопланетянин с планеты Флэпджек</span>
+                <span className="text-accent font-mono text-sm">Длительность</span>
+                <span className="text-foreground font-mono text-sm">90–120 минут</span>
+              </div>
+              <div className="flex items-center gap-4">
+                <span className="text-accent font-mono text-sm">Аудитория</span>
+                <span className="text-foreground font-mono text-sm">Начинающие разработчики, студенты IT-специальностей, аналитики данных</span>
               </div>
               <div className="flex items-start gap-4">
-                <span className="text-accent font-mono text-sm">Характер</span>
+                <span className="text-accent font-mono text-sm">Цель</span>
                 <span className="text-foreground font-mono text-sm">
-                  Любопытный, гибкий, немного расслабленный - но острый, когда дело касается баз данных и организации информации.
+                  Дать полное представление о реляционных базах данных, научить основам SQL и принципам проектирования эффективных структур данных.
                 </span>
               </div>
             </div>
